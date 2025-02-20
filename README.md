@@ -113,23 +113,20 @@ The primary conclusion of the analysis reveals:
 ## Installation and Usage
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/credit-risk-analysis.git
+   git clone https://github.com/whistlesurprise/Credit-Risk-Analysis-.git
    ```
 2. **Install required dependencies:**
    ```bash
    pip install pandas numpy scipy matplotlib seaborn panel hvplot holoviews statsmodels
    ```
-3. **Run the analysis:**
+3. **Run the analysis in Jupyter Notebook:**
    ```bash
-   python credit_risk_analysis.py
+   jupyter notebook analysis.ipynb
    ```
 4. **Access the dashboard:**
    ```bash
-   panel serve credit_risk_analysis.py
+   panel serve analysis.ipynb
    ```
 
 ## Contributing
 Feel free to **fork** this repository and submit **pull requests**. For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-This project is licensed under the **MIT License**.
